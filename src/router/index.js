@@ -10,6 +10,10 @@ const routes = [
     path: '/view/:imageUrl',
     name : 'viewImage',
     component : () => import('../components/ViewImage.vue'),
+  },{
+    path: '/minimal',
+    name : 'about',
+    component : () => import('../components/Minimal.vue'),
   }
 ];
 
