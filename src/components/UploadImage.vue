@@ -1,9 +1,10 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center bg-gray-900 text-green-400 relative">
-    <div class="text-2xl sm:text-4xl font-bold border px-9 border-green-400 pb-2 mt-4 rounded-md">
+  <div class="min-h-screen flex flex-col items-center bg-cover bg-center bg-gray-900 text-green-400 relative" style="background-image: url('/src/assets/letme3.jpg');">
+
+    <div class="text-2xl bg-gray-800 sm:text-4xl font-bold border px-9 border-green-400 pb-2 mt-4 rounded-md">
       Location Tracker
     </div>
-    <h2 class="text-2xl font-bold mb-6 border-green-400 pb-2 tracking-wider animate-pulse pt-32">
+    <h2 class="text-2xl bg-gray-800 font-bold mb-6 border-green-400 pb-2 tracking-wider animate-pulse mt-32 border  px-3 rounded-md">
       Upload an Image
     </h2>
     <div class="w-full max-w-md p-6 bg-gray-800 rounded-lg shadow-lg border border-green-400">
